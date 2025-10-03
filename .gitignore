@@ -1,0 +1,12 @@
+
+# Ignore Streamlit secrets file
+.streamlit/secrets.toml
+
+# Ignore FAISS index files (they are large)
+my_faiss_index_*
+
+# Ignore Python cache
+__pycache__/
+
+# Ignore Colab checkpoints
+.ipynb_checkpoints/
